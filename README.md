@@ -4,17 +4,17 @@
 
 Author: Corinne Krych, Daniel Passos   
 Level: Intermediate  
-Technologies: Swift, iOS, RHMAP, CocoaPods.
+Technologies: Swift 3, iOS, RHMAP, CocoaPods.
 Summary: A demonstration of how to get started with RHMAP.
 Community Project : [Feed Henry](http://feedhenry.org)
 Target Product: RHMAP  
 Product Versions: RHMAP 3.7.0+   
 Source: https://github.com/feedhenry-templates/blank-ios-app  
-Prerequisites: fh-ios-sdk : 3.+, Xcode : 7.2+, iOS SDK : iOS7+, CocoaPods: 1.0.1+
+Prerequisites: fh-ios-swift-sdk : 5+, Xcode : 8+, iOS SDK : iOS8+, CocoaPods: 1.1.0+
 
 ## What is it?
 
-Simple native iOS app to get you started with [fh-ios-sdk](https://github.com/feedhenry/fh-ios-sdk) in RHMAP. 
+Simple native iOS app to get you started with [fh-ios-swift-sdk](https://github.com/feedhenry/fh-ios-swift-sdk) in RHMAP.
 
 If you do not have access to a RHMAP instance, you can sign up for a free instance at [https://openshift.feedhenry.com/](https://openshift.feedhenry.com/).
 
@@ -47,9 +47,8 @@ If you wish to contribute to this template, the following information may be hel
 
 ### FH init
 
-In ```blank-ios-app/ViewController.m``` the synchronization loop is started.
+In ```blank-ios-app/ViewController.swift``` the synchronization loop is started.
 
-```
 override func viewDidLoad() {
     super.viewDidLoad()
     
