@@ -49,6 +49,7 @@ If you wish to contribute to this template, the following information may be hel
 
 In ```blank-ios-app/ViewController.swift``` the synchronization loop is started.
 
+```
 override func viewDidLoad() {
     super.viewDidLoad()
     
