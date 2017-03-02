@@ -14,6 +14,7 @@
 		48A6288A1C11E79100FA90F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A628881C11E79100FA90F3 /* Main.storyboard */; };
 		48A6288C1C11E79100FA90F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A6288B1C11E79100FA90F3 /* Assets.xcassets */; };
 		48A628971C11EA4300FA90F3 /* fhconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48A628961C11EA4300FA90F3 /* fhconfig.plist */; };
+		8898F0F51E65AECB008123CD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8898F0F41E65AECB008123CD /* Launch Screen.storyboard */; };
 		DEE891AAA64C4E4FD3953224 /* Pods_blank_ios_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5512CB61C5CA301842FFCC8D /* Pods_blank_ios_app.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		48A628901C11E79100FA90F3 /* blank-ios-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "blank-ios-app-Info.plist"; sourceTree = "<group>"; };
 		48A628961C11EA4300FA90F3 /* fhconfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fhconfig.plist; sourceTree = "<group>"; };
 		5512CB61C5CA301842FFCC8D /* Pods_blank_ios_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_blank_ios_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8898F0F41E65AECB008123CD /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		AA00CA8047D6474860C5C7FC /* Pods-blank-ios-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blank-ios-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-blank-ios-app/Pods-blank-ios-app.debug.xcconfig"; sourceTree = "<group>"; };
 		D7835392F2E9369D1B9C5376 /* Pods-blank-ios-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blank-ios-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-blank-ios-app/Pods-blank-ios-app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +84,7 @@
 				48A628881C11E79100FA90F3 /* Main.storyboard */,
 				48A6288B1C11E79100FA90F3 /* Assets.xcassets */,
 				48A6287F1C11E79100FA90F3 /* Supporting Files */,
+				8898F0F41E65AECB008123CD /* Launch Screen.storyboard */,
 			);
 			path = "blank-ios-app";
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			files = (
 				48A628971C11EA4300FA90F3 /* fhconfig.plist in Resources */,
 				48A6288C1C11E79100FA90F3 /* Assets.xcassets in Resources */,
+				8898F0F51E65AECB008123CD /* Launch Screen.storyboard in Resources */,
 				48A6288A1C11E79100FA90F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
