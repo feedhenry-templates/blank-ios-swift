@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         // trailing closure Swift syntax
         FH.init { (resp:Response, error: NSError?) -> Void in
             if let error = error {
-                self.statusLabel.text = "FH init in error"
+                self.statusLabel.text = "FH init in error \(error.localizedDescription)"
                 print("Error: \(error)")
                 return
             }
