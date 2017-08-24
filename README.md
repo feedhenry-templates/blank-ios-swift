@@ -5,13 +5,13 @@
 
 Author: Corinne Krych, Daniel Passos   
 Level: Intermediate  
-Technologies: Swift 3, iOS, RHMAP, CocoaPods.
-Summary: A demonstration of how to get started with RHMAP.
-Community Project : [Feed Henry](http://feedhenry.org)
+Technologies: Swift 4, iOS, RHMAP, CocoaPods.   
+Summary: A demonstration of how to get started with RHMAP.   
+Community Project : [Feed Henry](http://feedhenry.org)   
 Target Product: RHMAP  
 Product Versions: RHMAP 3.7.0+   
-Source: https://github.com/feedhenry-templates/blank-ios-app  
-Prerequisites: fh-ios-swift-sdk : 5+, Xcode : 8+, iOS SDK : iOS8+, CocoaPods: 1.1.0+
+Source: https://github.com/feedhenry-templates/blank-ios-app   
+Prerequisites: fh-ios-swift-sdk: 5+, Xcode: 9+, iOS SDK: iOS 9+, CocoaPods: 1.3.0+
 
 ## What is it?
 
