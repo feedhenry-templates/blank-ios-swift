@@ -1,23 +1,22 @@
-# blank-ios-app
-[![Build Status](https://travis-ci.org/feedhenry-templates/blank-ios-app.png)](https://travis-ci.org/feedhenry-templates/blank-ios-app)
+# blank-ios-swift
+
+[![circle-ci](https://img.shields.io/circleci/project/github/feedhenry-templates/blank-ios-swift/master.svg)](https://circleci.com/gh/feedhenry-templates/blank-ios-swift)
 
 > Obj-C version is available [here](https://github.com/feedhenry-templates/blank-ios-app/).
 
 Author: Corinne Krych, Daniel Passos   
 Level: Intermediate   
-Technologies: Swift 3, iOS, RHMAP, CocoaPods.   
+Technologies: Swift 4, iOS, RHMAP, CocoaPods.   
 Summary: A demonstration of how to get started with RHMAP.   
 Community Project : [Feed Henry](http://feedhenry.org)   
 Target Product: RHMAP   
 Product Versions: RHMAP 3.7.0+   
 Source: https://github.com/feedhenry-templates/blank-ios-swift   
-Prerequisites: fh-ios-swift-sdk: 5+, Xcode: 8+, iOS SDK: iOS 9+, CocoaPods: 1.3.0+
+Prerequisites: fh-ios-swift-sdk: 6+, Xcode: 9+, iOS SDK: iOS 9+, CocoaPods: 1.3.0+
 
 ## What is it?
 
 Simple native iOS app to get you started with [fh-ios-swift-sdk](https://github.com/feedhenry/fh-ios-swift-sdk) in RHMAP.
-
-If you do not have access to a RHMAP instance, you can sign up for a free instance at [https://openshift.feedhenry.com/](https://openshift.feedhenry.com/).
 
 ## How do I run it?  
 
@@ -32,7 +31,7 @@ If you wish to contribute to this template, the following information may be hel
 ## Build instructions
 
 1. Clone this project
-1. Populate ```blank-ios-app/fhconfig.plist``` with your values as explained [here](http://docs.feedhenry.com/v3/dev_tools/sdks/ios.html#ios-configure).
+1. Populate ```blank-ios-app/fhconfig.plist``` with your values as explained [here](https://access.redhat.com/documentation/en-us/red_hat_mobile_application_platform_hosted/3/html/client_sdk/native-ios-swift).
 1. Run ```Pod install```
 1. Open blank-ios-app.xcworkspace
 1. Run the project
