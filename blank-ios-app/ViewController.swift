@@ -32,7 +32,7 @@ class ViewController: UIViewController {
                 return
             }
             self.statusLabel.text = "FH init successful"
-            print("Response: \(resp.parsedResponse)")
+            print("Response: \(String(describing: resp.parsedResponse))")
         }
 
     }
